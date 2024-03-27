@@ -3,7 +3,6 @@
 	<PropertyGroup>
 		<Nullable>enable</Nullable>
 		<UseWindowsForms>true</UseWindowsForms>
-		<TargetFramework>net8.0</TargetFramework>
 		<!--<ImplicitUsings>enable</ImplicitUsings>-->
 		<TargetFramework>net8.0-windows</TargetFramework>
 	</PropertyGroup>
