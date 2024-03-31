@@ -36,7 +36,6 @@ public partial class MainForm : BaseForm
 				MessageBox.ShowError
 					(message: "Something wrong!");
 			}
-
 		}
 		catch (Exception ex)
 		{

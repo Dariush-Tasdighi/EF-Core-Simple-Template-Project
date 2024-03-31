@@ -2,9 +2,10 @@
 using Domain.Features.Identity.Users;
 using Domain.Features.Identity.Users.Enums;
 
-namespace Persistence.Features.Identity;
+namespace Persistence.Features.Identity.Users;
 
-internal class UserConfiguration : object, IEntityTypeConfiguration<User>
+internal class UserConfiguration :
+	object, IEntityTypeConfiguration<User>
 {
 	public UserConfiguration() : base()
 	{
